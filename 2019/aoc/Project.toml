@@ -1,0 +1,4 @@
+name = "aoc"
+uuid = "567357d0-d993-11ea-105d-051dadb9789b"
+authors = ["Eyassu Shimelis <eshimelis@hmc.edu>"]
+version = "0.1.0"
