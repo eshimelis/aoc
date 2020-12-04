@@ -1,7 +1,8 @@
+# Day 3 - Toboggan Trajectory
+
 using AOC
 
-# Day 3, Problem 1
-# Given an circular, 2-D array of `obstacles`, determine the number of collisions while traversing it at a given slope.
+# Part 1: Given an circular, 2-D array of `obstacles`, determine the number of collisions while traversing it at a given slope.
 
 input_filepath = joinpath(@__DIR__, "input.txt")
 inputs = readlines(input_filepath)
@@ -45,8 +46,7 @@ println("Number of collisions found: ", solution)
 println()
 
 
-# Day 3, Part 2
-# Compute `arboreal stops` for a set of different slopes.
+# Part 2: Compute `arboreal stops` for a set of different slopes.
 
 input_filepath = joinpath(@__DIR__, "input.txt")
 inputs = readlines(input_filepath)

@@ -1,3 +1,5 @@
+# Day 1 - Report Repair
+
 using AOC
 
 # Part 1: Given a list of integers, return the product of the two numbers which sum to 2020.
