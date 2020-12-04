@@ -29,7 +29,7 @@ print("Number of valid passwords: ", solution, " / ", length(inputs))
 
 # Part 2: Similar to above, except the range describes positions that must contain only one occurence of the desired letter.
 
-input_filepath = joinpath(@__DIR__, "input1.txt")
+input_filepath = joinpath(@__DIR__, "input.txt")
 inputs = readlines(input_filepath)
 
 function is_valid_pos(password::String)
