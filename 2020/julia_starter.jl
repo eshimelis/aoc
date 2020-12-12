@@ -1,7 +1,11 @@
 # Day X: 
 
 using AOC
+using Logging
 
+LOG_LEVEL = Logging.Info
+logger = ConsoleLogger(stdout, LOG_LEVEL)
+global_logger(logger)
 
 # Part 1 -
 
@@ -10,9 +14,10 @@ function solve(input::Array)
 end
 
 inputs = readlines(joinpath(@__DIR__, "test.txt"))
-solution = solve(inputs)
-println("Part 2 Solution")
-println("   : ", solution)
+output = solve(inputs)
+solution = output
+println("Part 1 Solution")
+println("   : ", solution, "\n")
 
 # ===================================================================
 
@@ -23,7 +28,8 @@ function solve(input::Array)
 end
 
 inputs = readlines(joinpath(@__DIR__, "test.txt"))
-solution = solve(inputs)
+output = solve(inputs)
+solution = output
 println("Part 2 Solution")
 println("   : ", solution)
 
