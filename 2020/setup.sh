@@ -24,6 +24,7 @@ touch $test_file
 
 # initialize julia script with starter file
 starter_file=./julia_starter.jl
-cp ./julia_starter.jl  ${julia_script}
+[[ ! -f $julia_script ]] && cp ${starter_file}  ${julia_script};
+[[ -f $julia_script ]] && echo "File already exists - ${julia_script}";
 
 echo "Done"
