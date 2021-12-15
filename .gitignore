@@ -1,6 +1,13 @@
+# file types
 .DS_Store
-
-Manifest.toml
-
 *.swp
 *.swo
+*.cmake
+
+# folders
+*/CMakeFiles/*
+
+# specific files
+CMakeCache.txt
+
+
