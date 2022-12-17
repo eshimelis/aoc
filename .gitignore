@@ -6,6 +6,7 @@
 
 # folders
 */CMakeFiles/*
+*/bazel-*
 
 # specific files
 CMakeCache.txt
